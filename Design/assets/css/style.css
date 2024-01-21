@@ -1,0 +1,75 @@
+
+/* Start container Area */
+
+        .container{
+            width:950px;
+            margin: 0 auto;
+            /* background-color: rgb(184, 8, 8); */
+           }
+/* End container Area */
+
+/* Start header Area */
+        .header{
+            overflow: hidden;
+            margin: 0%;
+            padding: 0%;
+            height: 309px; 
+           }
+        .header-slider img{
+            width: 100%;   
+           }
+/* End header Area */
+
+/* Start menu content Area */
+        .menucontent{
+            display: flex;
+            height: 280px;
+            padding-bottom: 5px;
+           }
+/* End menu content Area */
+
+/* Start Menu Area */
+        .menu-section{
+            width: 20%;
+            background-color: antiquewhite;
+            border-right: 1px solid rgba(14, 6, 124, 0.555);
+           }
+        .menu-section ul{
+            list-style: none;
+           }
+        .menu-section ul li{
+            padding: 10px;
+            border-bottom: 2px solid rgba(14, 6, 124, 0.555);
+           }
+        .menu-section ul li a{
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Oswald', sans-serif;
+            color: rgb(28, 115, 230);
+           }
+        .menu-section ul li a:hover{
+            color: rgb(252, 0, 0);
+            transition: 0.30sec ease-in-out;
+           }
+/* End Menu Area */
+
+/* Start content Area */
+        .content-section{
+            width: 80%;
+            background-color: rgb(255, 229, 195);
+            padding-top: 30px;
+            padding-left: 50px;
+           }
+        .content-section h1{
+            text-align: center;
+           }
+/* End content Area */
+ 
+/* Start footer Area */
+        .footer-sction{
+            background-color:antiquewhite;
+            text-align: center;
+            border-bottom: 1px solid rgba(14, 6, 124, 0.555);
+            padding-top: 5px;
+           }
+/* End footer Area */
